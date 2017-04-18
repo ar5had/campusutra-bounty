@@ -1,0 +1,88 @@
+.Block {
+  flex: 0 0 calc(50% - 30px);
+  text-align: left;
+  margin: 60px 0;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 12px 15px 20px 0 rgba(46,61,73,.15);
+}
+
+.Block:first-child .blockheading{
+  color: #ff5483 !important;
+}
+
+.Block:last-child .blockheading{
+  color:#a951ed!important;
+}
+
+.blockheading {
+  font-weight: 300;
+}
+
+.blockimgwrapper {
+  background:#fff;
+  /*padding: 20px;*/
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.blockimg {
+  width: 40px;
+}
+
+.Block  .upper {
+  justify-content: initial;
+  align-items: center;
+}
+
+.Block .upper > h4 {
+  padding-left: 30px;
+  font-size: 20px;
+  line-height: 1
+}
+
+.blockbody > div {
+  margin-top: 20px;
+  flex:1;
+  display: flex;
+  align-items: center
+}
+
+.blockbody > div > div {
+  width: 50px;
+  height: 50px;
+  background: #eee;
+  border-radius: 50%
+}
+
+.blockbody h4 {
+  flex: 1;
+  line-height: 2;
+  padding-left: 15px;
+  color: #333;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.blockbody a {
+  font-weight: 300;
+  font-size: 14px;
+  color: rgb(2, 179, 228);
+  font-size: 14px;
+}
+
+.morebtn {
+    color: #fff;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background .2s ease-in-out;
+}
+
+.morebtn:hover {
+  background: rgb(12, 162, 204);
+}

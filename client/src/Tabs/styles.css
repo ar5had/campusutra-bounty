@@ -1,0 +1,82 @@
+.Tabs {
+  padding: 80px 0px !important;
+  height: 300px;
+}
+
+.tabcontainer {
+  display: flex;
+  position: relative;
+  display: flex;
+  
+}
+
+.tabcontainer > button {
+  flex: 1
+}
+
+.tabccontainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fade {
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+.col-wrapper {
+  flex: 1;
+  width: 100%;
+}
+
+.tab {
+  opacity: .4;
+  border-bottom: solid 3px transparent;
+}
+
+.tab.active {
+  opacity: 1;
+  border-color: rgb(2, 179, 228);
+}
+
+.col {
+  margin: 30px;
+  flex: 1
+}
+
+.col > h4 {
+  flex: 1;
+  line-height: 2;
+  padding-left: 15px;
+  color: #333;
+  font-weight: 400;
+  text-align: center;
+  font-size: 14px;
+}
+
+.col p {
+  text-align: center;
+}
+
+.col a {
+  margin:auto;
+  width: 100%;
+  font-weight: 300;
+  font-size: 14px;
+  color: rgb(2, 179, 228);
+  font-size: 14px;
+}
+
+.col > div {
+  background: #eee;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  margin: auto;
+}

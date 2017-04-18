@@ -1,0 +1,11 @@
+.blockswrapper {
+  background: #fafbfc!important;
+}
+.blockswrapper > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.App {
+  overflow-x: hidden;
+}

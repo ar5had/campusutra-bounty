@@ -1,0 +1,41 @@
+.Header {
+  padding-top: 10px;
+}
+
+.upper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.logo > img {
+  width: 25px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.login {
+  background: none;
+}
+
+.signup {
+  color: white; 
+  margin-left: 10px;  
+  border-radius: 2px;
+  box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+  transition: all .2s ease-in-out;
+}
+
+.signup:hover {
+  box-shadow: 2px 3px 15px 0 rgba(46,61,73,.15);  
+}
+
+
+
+

@@ -1,0 +1,30 @@
+.Navbar {
+  background: rgba(2, 179, 228, .75);
+  width: 100%;
+  margin-top: 30px;
+  padding-top: 5px;
+  box-shadow: 0px 3px 4px rgba(0,0,0,.3);
+}
+
+.navitemsWrapper {
+  margin-top: 30px;
+  display: flex;
+}
+
+.navitem {
+  
+} 
+
+.navitem.current > button{
+  border-color: #fff;
+}
+
+.navitem > button {
+  color: #fff;
+  border-bottom: solid 3px transparent;
+  transition: all .2s ease-in-out;
+}
+
+.navitem > button:hover {
+
+}

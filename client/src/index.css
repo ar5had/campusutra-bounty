@@ -1,0 +1,66 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 20px 0 0;
+  font-family: sans-serif;
+  margin: auto;
+}
+
+a {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.blue {
+  color: rgb(2, 179, 228); 
+}
+
+.black {
+  color: #333;
+}
+
+.darkgrey {
+  color: #555;
+}
+
+.grey {
+  color: #777;
+}
+
+.greybkd {
+  background-color: #fafbfc!important
+}
+
+.blueborder {
+  border-color: rgb(2, 179, 228); 
+}
+
+.bluebackground {
+  background-color: rgb(2, 179, 228); 
+}
+
+button {
+  border: none;
+  background: transparent;
+  padding: 8px 14px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:focus, button, button:active {
+  outline: none;  
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}

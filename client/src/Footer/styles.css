@@ -1,0 +1,70 @@
+.Footer {
+  background-image: linear-gradient(to bottom right,#f7f7f7,rgba(234, 251, 255, 0.36));
+  /*background-color: #f4f3f3;*/
+  padding-top: 40px;
+  padding-bottom: 40px;  
+}
+
+.Footer > * {
+  font-size: 12px;
+  font-weight: 400;
+  color: #333;
+}
+
+.logofooter {
+  font-weight: 300;
+  font-size: 18px;
+  text-align: left;
+  margin: 25px 0;
+}
+
+.logodescription {
+  text-align: left;
+  line-height: 2.5;
+  font-size: 13px;
+  font-weight: 300;
+  color: #777;
+  padding-right: 35px;
+}
+
+.logofooter > img {
+  width: 20px;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.cols-wrapper {
+  display: flex;
+}
+
+.col-3612 {
+  flex: 0 0 25%;
+}
+
+.col-3612 h4 {
+  font-size: 13px;
+  text-transform: uppercase;
+  color: rgb(157, 178, 195);
+  font-weight: 700;
+  margin: 25px 0;
+}
+
+.col-3612 .links {
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.links > a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #777;
+  font-size: 13px;
+  padding: 8px 0;
+  transition: color .2s ease-in-out;
+  cursor: pointer;
+}
+
+.links > a:hover {
+  color: #222;
+}

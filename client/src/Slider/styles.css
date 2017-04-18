@@ -1,0 +1,69 @@
+.Slider {
+  overflow-x: hidden;
+  width: 400vw;
+  min-height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  transition: transform 2000ms ease-in-out;
+  position: relative;
+}
+
+.Slider::after {
+  position: absolute;
+  content: ' ';
+  height: 100%;
+  width: 100%;
+  background: rgba(0,0,0,.1);
+  background: -webkit-linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.6)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.6)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.6)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.6)); 
+  z-index: 22;
+}
+
+.Slider > div {
+  /*background: url('../assets/images/s1.png') no-repeat;
+  */
+  background: #eee;
+  height: 400px;
+  width: 100vw;
+  position: relative;
+  transition: opacity 800ms ease-in-out;
+}
+
+.Slider > div > h5 {
+  position: absolute;
+  /*top: 50%;*/
+  bottom: 0;
+  z-index: 222;
+  left: 50%;
+  font-weight: 700;
+  width: 400px;
+  text-transform: uppercase;
+
+  color: rgba(255,255,255,.8);
+  /*border-bottom: solid 1px rgba(255,255,255, .8);*/
+  padding-bottom: 10px;
+  font-size: 13px;
+  line-height: 1.1;
+  text-align: center;
+  /*font-weight: 300;*/
+  transform: translate(-50%, -50%);
+}
+/*
+.Slider > div:nth-child(1) {
+  background: url('../assets/images/s1.png') no-repeat;
+      background-size: cover;
+}
+.Slider > div:nth-child(2) {
+  background: url('../assets/images/s2.png') no-repeat;
+      background-size: cover;
+}
+.Slider > div:nth-child(3) {
+  background: url('../assets/images/s3.png') no-repeat;
+      background-size: cover;
+}
+.Slider > div:nth-child(4) {
+  background: url('../assets/images/s4.jpg') no-repeat;
+      background-size: cover;
+}*/
